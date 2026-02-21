@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Музей Кетечскова</title>
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+
+h2 {
+    font-size: 36px;
+    color: white;
+    font-weight: normal;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+    position: relative;
+}
+h2:hover {
+    background-color: darkred;
+    color: yellow;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+
+h2::after {
+    content: " 🐅";
+    font-size: 28px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+h2:hover::after {
+    opacity: 1;
+}
+
+
+h1 {
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+    padding: 20px;
+}
+h1:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transform: rotate(-1deg);
+    transition: all 0.4s ease;
+}
+
+
+.img {
+    border-color: red;
+    border-style: solid;
+    transition: all 0.3s ease;
+}
+.img:hover {
+    border-color: gold;
+    transform: scale(1.08);
+}
+
+
+.cvb {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.cvb:hover {
+    background-color: darkred;
+    font-weight: bolder;
+    transform: translateX(10px);
+}
+
+
+article {
+    margin: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+article:hover {
+    transform: translateX(15px);
+    font-weight: bolder;
+    font-style: italic;
+    transition: all 0.4s ease;
+}
+
+
+article::before {
+    content: "📌 ";
+    position: absolute;
+    left: -25px;
+    top: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+article:hover::before {
+    opacity: 1;
+}
+
+
+.imn {
+    border-color: red;
+    border-style: solid;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.imn:hover {
+    border-color: orange;
+    transform: scale(1.05);
+}
+
+
+.qwe {
+    font-size: 36px;
+    color: white;
+    font-weight: normal;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: red;
+    padding: 10px; 
+    margin-top: 20px;
+    border-radius: 30px;
+    position: relative;
+}
+.qwe:hover {
+    background-color: crimson;
+    color: #ffff99;
+    transform: scale(1.03);
+}
+
+
+.qwe::after {
+    content: " ✨";
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.qwe:hover::after {
+    opacity: 1;
+}
+
+
+.asd {
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.asd:hover {
+    transform: scale(1.1) rotate(2deg);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+}
+.jkl {
+    color: white;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.jkl:hover {
+    color: #ffcc00;
+    transform: translateY(-2px);
+}
+</style>
+</head>
+
+<body>
+
+<header style="text-align:center;">
+    <h2>Національний музей "Святослава Кетечскова"</h2>
+    <h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Boeing_full_logo.svg/2560px-Boeing_full_logo.svg.png" width="200" height="50">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Chrysler_Group_logo.svg/2560px-Chrysler_Group_logo.svg.png" width="160" height="100">
+        <img src="https://helihub-wp.s3.amazonaws.com/wp-content/uploads/textron-systems-bell-300x300.jpg" width="100">
+    </h1>
+    <p><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/4/4d/%D0%9D%D0%B0%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%97_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8%2C_2015_%D1%80..jpg" width="700" height="400"></p>
+</header>
+
+<main>
+    <article>
+        <p class="cvb">Що там буде ще? Все про що ви можете подумати! Техніка, звірі, артефакти, кораблі, машини, динозаври, старовина хати.</p>
+    </article>
+    
+    <article>
+        <p><img class="imn" src="https://museum-portal.com/content/museums/122/nubip---muzey-lisovih-zviriv-ta-ptahiv_standard.webp" width="1000" height="650"></p>
+    </article>
+    
+    <article>
+        <p><b>Музей Святослава Кетечскова: Портрет епохи, якої не було</b></p>
+        <p>Ласкаво просимо до унікального культурного простору...</p>
+    </article>
+    
+    <p class="qwe"><b>!Практична інформація для відвідувачів!</b></p>
+    
+    <article>
+        <p><b>Графік роботи:</b> Вівторок – П’ятниця: з 11:00 до 19:00...</p>
+    </article>
+
+    <center><img class="asd" src="https://st5.depositphotos.com/5389108/66227/v/450/depositphotos_662271466-stock-illustration-admission-ticket-circus-cinema-theater.jpg" width="300" height="200"></center>
+</main>
+
+<footer>
+    <p class="jkl">Адреса: Ліс "Тараса П'ятого", тропинка "Андрія Губливого"</p>
+    <p class="jkl">Область: Тернопиль</p>
+    <p class="jkl">Номер телефону: +380 755 465 532</p>
+    <p class="jkl">Розробник сайту: Антон Чигур <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvA7L89U_I-vC-_nhK_sb2PsKLmOhna1wTEQ&s" width="50" height="50"></p>
+</footer>
+
+</body>
+</html>   
